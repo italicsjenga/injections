@@ -32,8 +32,12 @@
     }
     a,
     .WpKAof,
+    a.fl:link,
     .WGvvNb {
         color: #7982fd;
+    }
+    a:visited {
+        color: #a387e4;
     }
     .KFFQ0c .YfftMc,
     .KFFQ0c .YfftMc span,
