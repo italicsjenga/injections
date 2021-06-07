@@ -2,9 +2,14 @@
     "addons": {
         "{70d56c8a-d52a-4785-a6b8-8f7b221fdd2f}": {
             "updates": [{
-                "version": "0.1",
-                "update_link": "https://github.com/italicsjenga/injections/releases/download/0.1/injections-0.1.xpi"
-            }]
+                    "version": "0.1",
+                    "update_link": "https://github.com/italicsjenga/injections/releases/download/0.1/injections-0.1.xpi"
+                },
+                {
+                    "version": "0.2",
+                    "update_link": "https://github.com/italicsjenga/injections/releases/download/0.2/injections-0.2.xpi"
+                }
+            ]
         }
     }
 }
