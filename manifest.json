@@ -1,14 +1,18 @@
 {
-  "manifest_version": 2,
-  "name": "injections",
-  "version": "0.1",
+    "manifest_version": 2,
+    "name": "injections",
+    "version": "0.2",
 
-  "description": "misc CSS injections.",
+    "description": "misc CSS injections.",
 
-  "content_scripts": [
-    {
-      "matches": ["*://news.ycombinator.com/*"],
-      "css": ["styles/news.ycombinator.com.css"]
+    "content_scripts": [{
+        "matches": ["*://news.ycombinator.com/*"],
+        "css": ["styles/news.ycombinator.com.css"]
+    }],
+
+    "browser_specific_settings": {
+        "gecko": {
+            "update_url": "https://raw.githubusercontent.com/italicsjenga/injections/master/updates.json"
+        }
     }
-  ]
 }
