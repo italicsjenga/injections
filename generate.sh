@@ -1,0 +1,1 @@
+web-ext sign --channel=unlisted --api-key=KEY --api-secret=SECRET
