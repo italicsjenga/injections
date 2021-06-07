@@ -5,6 +5,11 @@
 
     "description": "misc CSS injections.",
 
+    "icons": {
+        "48": "icons/icon48.png",
+        "96": "icons/icon96.png"
+    },
+
     "content_scripts": [{
         "matches": ["*://news.ycombinator.com/*"],
         "css": ["styles/news.ycombinator.com.css"]
