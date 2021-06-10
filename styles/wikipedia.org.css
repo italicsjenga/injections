@@ -1,0 +1,132 @@
+@media (prefers-color-scheme: dark) {
+    body,
+    .mw-footer li {
+        /* sidebar */
+        background: #27292F;
+        color: #eaeaea;
+    }
+    #p-logo {
+        /* logo */
+        filter: invert(1)
+    }
+    .vector-menu-portal .vector-menu-content li a,
+    .vector-menu-portal .vector-menu-content li a:visited,
+    .vector-menu-tabs li a,
+    .mw-parser-output a.extiw,
+    .mw-parser-output a.external,
+    a {
+        /* links */
+        color: #4183fc
+    }
+    a:visited {
+        color: #a387e4;
+    }
+    #mw-page-base {
+        /* header */
+        background-color: #37393f;
+        background-image: -webkit-linear-gradient(top, #37393f 50%, #27292F 100%);
+        background-image: linear-gradient(to bottom, #37393f 50%, #27292F 100%);
+        background-position: bottom left;
+        height: 5em;
+    }
+    .vector-menu-tabs li {
+        /* other header tabs */
+        background-image: linear-gradient(to top, #77c1f6 0, #37393B 1px, #37393f 100%);
+    }
+    .vector-menu-tabs .selected {
+        /* selected header tab */
+        background: #37393f;
+    }
+    #content {
+        /* main page */
+        background: #37393f;
+        color: #eaeaea;
+    }
+    .infobox {
+        /* quick info box */
+        background-color: #27292F;
+        color: #eaeaea;
+    }
+    .infobox .infobox-above,
+    .infobox .infobox-title,
+    .infobox-header,
+    .infobox caption {
+        /* quick info box */
+        background-color: #37393f !important;
+    }
+    .toc,
+    .tocnumber {
+        /* table of contents */
+        background: #37393f;
+        color: #eaeaea;
+    }
+    .wikitable {
+        /* tables */
+        background: #37393f;
+        color: #eaeaea;
+    }
+    .wikitable>tr>th,
+    .wikitable>*>tr>th {
+        /* tables */
+        background: #52555b;
+    }
+    div.thumbinner {
+        /* images on side */
+        border: 1px solid #c8ccd1;
+        background-color: #27292F;
+    }
+    #content .gallerybox div.thumb {
+        /* image gallery */
+        background-color: #27292F;
+    }
+    .catlinks {
+        /* category links */
+        background: #37393f;
+    }
+    .mbox-small {
+        /* wikimedia commons plug */
+        background-color: #27292F !important;
+        border: 1px solid #27292F !important;
+        color: #eaeaea !important;
+    }
+    .navbox th,
+    .navbox-title {
+        /* navigation boxes (other links in category) */
+        background: #4D4D60;
+    }
+    .navbox,
+    .navbox-subgroup {
+        /* navigation boxes (other links in category) */
+        background: #37393f;
+        border: 1px solid #37393f;
+    }
+    .vector-menu-portal h3,
+    .vector-menu-tabs .selected a,
+    .vector-menu-tabs .selected a:visited,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        /* headings */
+        color: #eaeaea;
+    }
+    .mw-ui-button {
+        /* more languages button */
+        background: #37393f;
+        color: #eaeaea;
+    }
+    table.tmbox {
+        /* talk page bits */
+        background-color: #605B48;
+    }
+    .boilerplate {
+        background-color: #3B403B !important;
+    }
+}
+
+#siteNotice {
+    /* dont display annoying site notices!! */
+    display: none;
+}
