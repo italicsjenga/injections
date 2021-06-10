@@ -15,42 +15,76 @@
     .sfbg,
     .yg51vc,
     .F9PbJd,
+    .k24kee,
+    .Cx1ZMc,
     .yDYNvb.lyLwlc,
     .kp-blk {
+        /* main page */
         background: #37393f;
         color: #eaeaea;
     }
     .I6TXqe {
+        /* highlighted info sidebar */
         background: #ced0d5;
     }
     .HsZQAe,
     .qIshu {
+        /* info sidebar separators */
         border-bottom: 1px solid #37393f !important;
     }
     cite {
+        /* website main url */
         color: #c9c9c9;
     }
     .k8XOCe,
+    .AvBz0e,
     .s75CSd {
+        /* suggested/related searches & video key moments */
         background: #5e6168;
         color: #eaeaea;
     }
-    .MXl0lf {
-        background: #eaeaea;
+    .U1hlv {
+        /* video key moments */
+        color: #eaeaea
+    }
+    .U5K4re {
+        /* video key moments arrow */
+        border-bottom: 8px solid #5e6168;
+    }
+    .MXl0lf,
+    .pb5vrc {
+        /* view all videos */
+        background: #52555b;
+        border: 1px solid #52555b;
+    }
+    .MXl0lf:hover {
+        /* view all videos */
+        background: #484b51;
+    }
+    .wUrVib,
+    .EZRelc {
+        /* view all videos */
+        color: #4183fc;
     }
     a,
     .WpKAof,
     a.fl:link,
     .WGvvNb {
-        color: #7982fd;
+        /* links */
+        color: #4183fc;
     }
     a:visited {
+        /* visited links */
         color: #a387e4;
     }
     .KFFQ0c .YfftMc,
     .KFFQ0c .YfftMc span,
     .KFFQ0c .YfftMc div,
+    .yXK7lf em,
+    .WZ8Tjf,
+    .uo4vr,
     .KFFQ0c .YfftMc a {
+        /* misc lil grey text */
         color: #a7a7a7;
     }
 }
