@@ -12,12 +12,14 @@
     .GmE3X,
     .IsZvec,
     .appbar,
+    .dbg0pd,
     .sfbg,
     .yg51vc,
     .F9PbJd,
     .k24kee,
     .Cx1ZMc,
     .yDYNvb.lyLwlc,
+    .yyjhs,
     .kp-blk {
         /* main page */
         background: #37393f;
@@ -38,12 +40,15 @@
     }
     .k8XOCe,
     .AvBz0e,
+    .cv2VAd,
     .s75CSd {
         /* suggested/related searches & video key moments */
         background: #5e6168;
         color: #eaeaea;
+        border: #5e6168;
     }
-    .U1hlv {
+    .U1hlv,
+    .K0YnOd {
         /* video key moments */
         color: #eaeaea
     }
@@ -52,11 +57,14 @@
         border-bottom: 8px solid #5e6168;
     }
     .MXl0lf,
+    .WGYX8,
     .pb5vrc {
-        /* view all videos */
+        /* view all videos & map search */
         background: #52555b;
         border: 1px solid #52555b;
+        color: #eaeaea;
     }
+    .WGYX8:hover,
     .MXl0lf:hover {
         /* view all videos */
         background: #484b51;
@@ -82,9 +90,22 @@
     .KFFQ0c .YfftMc div,
     .yXK7lf em,
     .WZ8Tjf,
+    .cXedhc,
     .uo4vr,
     .KFFQ0c .YfftMc a {
         /* misc lil grey text */
         color: #a7a7a7;
+    }
+    .commercial-unit-desktop-top {
+        /* shopping ads */
+        display: none;
+    }
+    #tads {
+        /* other ads */
+        display: none;
+    }
+    .l44Vof {
+        /* maps */
+        filter: invert(0.9);
     }
 }
