@@ -21,6 +21,7 @@
     .Cx1ZMc,
     .yDYNvb.lyLwlc,
     .yyjhs,
+    .Ss2Faf,
     .kp-blk {
         /* main page */
         background: #37393f;
@@ -93,9 +94,10 @@
     .WZ8Tjf,
     .cXedhc,
     .uo4vr,
+    .s,
     .KFFQ0c .YfftMc a {
         /* misc lil grey text */
-        color: #a7a7a7;
+        color: #bfbfbf;
     }
     .commercial-unit-desktop-top {
         /* shopping ads */
@@ -108,5 +110,9 @@
     .l44Vof {
         /* maps */
         filter: invert(0.9);
+    }
+    .YyVfkd {
+        /* current page indicator */
+        color: #c9c9c9;
     }
 }

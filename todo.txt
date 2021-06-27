@@ -1,6 +1,4 @@
 google.com
-	- deep link text extracts
-	- current page number
 	- better colour scheme for highlighted info?
 
 wikipedia.com
