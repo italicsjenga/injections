@@ -32,6 +32,10 @@
                 {
                     "version": "1.4",
                     "update_link": "https://github.com/italicsjenga/injections/releases/download/1.4/injections-1.4.xpi"
+                },
+                {
+                    "version": "1.5",
+                    "update_link": "https://github.com/italicsjenga/injections/releases/download/1.5/injections-1.5.xpi"
                 }
             ]
         }
