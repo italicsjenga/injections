@@ -37,6 +37,10 @@
         /* selected header tab */
         background: #37393f;
     }
+    #searchInput::placeholder {
+        /* searchbox */
+        color: #3A3C3E;
+    }
     #content {
         /* main page */
         background: #37393f;
@@ -53,6 +57,12 @@
     .infobox caption {
         /* quick info box */
         background-color: #37393f !important;
+    }
+    table.ambox,
+    .ambox {
+        /* article messagebox */
+        background-color: #27292F;
+        color: #eaeaea;
     }
     .toc,
     .tocnumber {
