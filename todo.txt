@@ -1,5 +1,2 @@
-google.com
-	- better colour scheme for highlighted info?
-
 wikipedia.com
 	- main page coloured boxes

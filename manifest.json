@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "injections",
-    "version": "1.6",
+    "version": "1.7",
     "description": "misc CSS injections.",
     "icons": {
         "48": "icons/icon48.png",
@@ -13,14 +13,6 @@
             ],
             "css": [
                 "styles/news.ycombinator.com.css"
-            ]
-        },
-        {
-            "matches": [
-                "*://*.google.com/search?*"
-            ],
-            "css": [
-                "styles/google.com.css"
             ]
         },
         {
