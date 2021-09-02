@@ -156,3 +156,18 @@
 .mw-portlet-lang {
     opacity: 0;
 }
+
+@media (min-width: 145em) {
+    .mw-body {
+        border-right-width: 1px;
+    }
+}
+
+.mw-body {
+    max-width: 130em;
+}
+
+#mw-head {
+    max-width: 144.1em;
+    left: 0em;
+}
