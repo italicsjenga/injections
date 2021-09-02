@@ -145,16 +145,20 @@
 .mw-portlet-interaction:hover,
 .mw-portlet-tb:hover,
 .mw-portlet-coll-print_export:hover,
-.mw-portlet-lang:hover {
+.mw-portlet-lang:hover,
+.mw-portlet-wikibase-otherprojects:hover {
     opacity: 1;
+    transition: opacity 0.2s;
 }
 
 .mw-portlet-personal,
 .mw-portlet-interaction,
 .mw-portlet-tb,
 .mw-portlet-coll-print_export,
-.mw-portlet-lang {
+.mw-portlet-lang,
+.mw-portlet-wikibase-otherprojects {
     opacity: 0;
+    transition: opacity 0.2s;
 }
 
 @media (min-width: 145em) {

@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "injections",
-    "version": "1.9",
+    "version": "1.10",
     "description": "misc CSS injections.",
     "icons": {
         "48": "icons/icon48.png",
