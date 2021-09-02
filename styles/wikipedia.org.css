@@ -140,3 +140,19 @@
     /* dont display annoying site notices!! */
     display: none;
 }
+
+.mw-portlet-personal:hover,
+.mw-portlet-interaction:hover,
+.mw-portlet-tb:hover,
+.mw-portlet-coll-print_export:hover,
+.mw-portlet-lang:hover {
+    opacity: 1;
+}
+
+.mw-portlet-personal,
+.mw-portlet-interaction,
+.mw-portlet-tb,
+.mw-portlet-coll-print_export,
+.mw-portlet-lang {
+    opacity: 0;
+}
