@@ -141,6 +141,9 @@
     display: none;
 }
 
+
+/* make annoying useless things invisible by default */
+
 .mw-portlet-personal:hover,
 .mw-portlet-interaction:hover,
 .mw-portlet-tb:hover,
@@ -161,6 +164,9 @@
     transition: opacity 0.2s;
 }
 
+
+/* page max width */
+
 @media (min-width: 145em) {
     .mw-body {
         border-right-width: 1px;
@@ -174,4 +180,36 @@
 #mw-head {
     max-width: 144.1em;
     left: 0em;
+}
+
+.mwe-math-mathml-a11y {
+    clip: rect(1px, 1px, 1px, 1px);
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+
+/* math */
+
+.mwe-math-mathml-a11y {
+    clip: inherit;
+    overflow: inherit;
+    position: inherit;
+    width: inherit;
+    height: inherit;
+    opacity: inherit;
+}
+
+.mwe-math-fallback-image-inline {
+    display: none;
+}
+
+
+/* bullet */
+
+ul {
+    list-style-image: inherit;
 }
