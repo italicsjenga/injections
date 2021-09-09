@@ -60,6 +60,10 @@
                 {
                     "version": "1.11",
                     "update_link": "https://github.com/italicsjenga/injections/releases/download/1.11/injections-1.11.xpi"
+                },
+                {
+                    "version": "1.12",
+                    "update_link": "https://github.com/italicsjenga/injections/releases/download/1.12/injections-1.12.xpi"
                 }
             ]
         }

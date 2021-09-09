@@ -9,13 +9,17 @@
         color: #eaeaea;
     }
     body {
+        background: #27292F;
+    }
+    #hnmain {
         background: #37393f;
+        padding-left: 0.5em;
     }
     td {
         background: #37393f;
     }
     tr {
-        background: #37393f;
+        /* background: #37393f; */
     }
     .comment {
         color: #eaeaea;
