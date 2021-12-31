@@ -167,18 +167,34 @@
 
 /* page max width */
 
-@media (min-width: 145em) {
+@media (min-width: 95em) {
+     :root {
+        --content-width: 80em;
+    }
     .mw-body {
         border-right-width: 1px;
+        min-width: var(--content-width);
+        margin-right: 10em;
+    }
+    #mw-head {
+        max-width: calc(100vw - 12em);
+        min-width: 93em;
     }
 }
 
-.mw-body {
-    max-width: 130em;
+@media (min-width: 156em) {
+     :root {
+        --content-width: 130em;
+    }
+    .mw-body {
+        max-width: var(--content-width);
+    }
+    #mw-head {
+        max-width: calc(var(--content-width) + 14.1em);
+    }
 }
 
 #mw-head {
-    max-width: 144.1em;
     left: 0em;
 }
 
